@@ -1,6 +1,9 @@
 from app.agents.state import AgentState
 from app.core.config import settings
-from langchain_community.chat_models import ChatBedrock
+try:
+    from langchain_aws import ChatBedrock
+except ImportError:
+    from langchain_community.chat_models.bedrock import BedrockChat as ChatBedrock
 from langchain_core.messages import HumanMessage, SystemMessage
 
 class RiskAgent:

@@ -11,3 +11,5 @@ python-multipart
 python-dotenv
 langchain-chroma
 langchain-huggingface
+langchain-aws
+langchain-community
