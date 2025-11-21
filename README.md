@@ -85,6 +85,28 @@ TitanIA/
     └── package.json
 ```
 
-## 🛡️ License
+## � Deployment
+
+### Live Demo
+**Frontend**: Deployed on AWS S3 + CloudFront  
+🔗 [http://titania-frontend-v1.s3-website-us-east-1.amazonaws.com](http://titania-frontend-v1.s3-website-us-east-1.amazonaws.com)
+
+### Infrastructure Requirements
+This is a **production-grade AI system** with enterprise-level dependencies:
+- **PyTorch** (888 MB) - Deep learning framework
+- **CUDA Libraries** (2+ GB) - GPU acceleration support
+- **LangChain + ChromaDB** - Vector database and RAG pipeline
+- **Sentence Transformers** - Embedding models
+
+**Recommended AWS Setup:**
+- **Frontend**: S3 + CloudFront (✅ Currently deployed)
+- **Backend**: EC2 t3.medium or larger (2GB+ RAM, 20GB+ disk)
+- **Alternative**: AWS Lambda with containerized inference (for cost optimization)
+
+> **Note**: AWS Free Tier (t2.micro/t3.micro) has insufficient resources for the ML stack. For local development, all components run seamlessly on standard hardware.
+
+For detailed deployment instructions, see [`aws_deployment_guide.md`](aws_deployment_guide.md).
+
+## �🛡️ License
 
 This project is open-source and available under the MIT License.
