@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - CHROMA_DB_DIR=/app/chroma_db
+      - MOCK_AWS_CREDENTIALS=true
+    volumes:
+      - ./backend/local_s3_storage:/app/local_s3_storage
+      - ./backend/chroma_db:/app/chroma_db
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend

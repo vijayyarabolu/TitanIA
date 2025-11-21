@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+
+# Node.js
+node_modules/
+dist/
+.DS_Store
+
+# Local Storage (Mock S3 & DB)
+backend/local_s3_storage/
+backend/chroma_db/
+*.jsonl

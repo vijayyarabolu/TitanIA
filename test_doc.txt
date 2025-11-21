@@ -1,0 +1,5 @@
+TitanIA is an advanced AI reasoning platform designed for enterprise use.
+It features a document ingestion pipeline, a RAG engine, and a multi-agent system.
+The agents include Research, Risk, Decision, and Audit agents.
+This document is used to verify the ingestion and retrieval capabilities of the system.
+CONFIDENTIAL: This is a test document containing sensitive internal information about TitanIA's architecture.

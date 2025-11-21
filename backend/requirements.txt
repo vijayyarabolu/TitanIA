@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+langchain
+langgraph
+chromadb
+sentence-transformers
+pypdf
+pandas
+boto3
+python-multipart
+python-dotenv
+langchain-chroma
+langchain-huggingface
