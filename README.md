@@ -2,8 +2,7 @@
 
 TitanIA is a full-stack AI platform designed to demonstrate advanced reasoning capabilities using **RAG (Retrieval-Augmented Generation)** and **Multi-Agent Systems**. It simulates an enterprise environment where documents are ingested, analyzed by a team of AI agents, and used to make data-driven decisions with a complete audit trail.
 
-![TitanIA Dashboard](https://via.placeholder.com/800x400?text=TitanIA+Dashboard+Preview)
-*(Replace with actual screenshot)*
+![TitanIA Dashboard](assets/dashboard-screenshot.png)
 
 ## 🚀 Features
 
